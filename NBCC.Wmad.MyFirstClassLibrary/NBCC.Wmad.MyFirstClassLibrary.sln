@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBCC.Wmad.MyFirstClassLibrary", "NBCC.Wmad.MyFirstClassLibrary\NBCC.Wmad.MyFirstClassLibrary.csproj", "{713E7D73-218A-452C-9B22-FAFD8F3177F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBCC.WMAD.MyFirstClassLibraryTest", "NBCC.WMAD.MyFirstClassLibraryTest\NBCC.WMAD.MyFirstClassLibraryTest.csproj", "{D2193744-8362-47A5-AFF6-69E8FE7C931D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{713E7D73-218A-452C-9B22-FAFD8F3177F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713E7D73-218A-452C-9B22-FAFD8F3177F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713E7D73-218A-452C-9B22-FAFD8F3177F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713E7D73-218A-452C-9B22-FAFD8F3177F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2193744-8362-47A5-AFF6-69E8FE7C931D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2193744-8362-47A5-AFF6-69E8FE7C931D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2193744-8362-47A5-AFF6-69E8FE7C931D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2193744-8362-47A5-AFF6-69E8FE7C931D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89C7AAB6-26A1-49BD-8999-990E4B1FCEFD}
+	EndGlobalSection
+EndGlobal
