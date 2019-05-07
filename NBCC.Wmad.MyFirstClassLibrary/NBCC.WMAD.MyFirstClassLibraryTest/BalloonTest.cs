@@ -138,6 +138,18 @@ namespace NBCC.WMAD.MyFirstClassLibraryTest
             Balloon testBalloon = new Balloon();
             testBalloon.Diameter = 5;
         }
+        [TestMethod]
+
+        public void BurstingPoint_Positive()
+        {
+            Balloon testBalloon = new Balloon();
+            double expected = Math.PI * 2 * 2;
+            testBalloon.Height = 2;
+            testBalloon.Color = "BLUE";
+            testBalloon.Diameter = 2;
+            double burst = testBalloon.BurstingPoint;
+            Assert.AreEqual(burst, expected);
+        }
 
 
 
